@@ -57,10 +57,6 @@ function loadMain()
 {
     let data = ls.getAll();
     array = data || [];
-    let tagsDOMRemove = document.querySelector(".list_tag");
-    while (tagsDOMRemove.lastChild) {
-        tagsDOMRemove.removeChild(tagsDOMRemove.lastChild);
-    }
     for(let i = 0; i < array.length; i++)
     {
         addDomElement(data[i]);
