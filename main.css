@@ -1,0 +1,45 @@
+.enter_tag {
+    outline: none;
+    width: 300px;
+    height: 30px;
+    border-radius: 24px;
+    border-color: blue;
+    background: white;
+    padding-left: 10px;
+    margin: 15px;
+}
+
+.add_tag {
+    width: 100px;
+    height: 30px;
+    border-radius: 24px;
+    background: blue;
+    color: white;
+}
+
+.list_tag {
+    width: 300px;
+    height: 300px;
+    background: #008a77;
+    border-radius: 24px;
+    border-color: red;
+    margin: 15px;
+}
+
+.list_tag .tag {
+    display: flex;
+    color: white;
+    padding: 5px 0 0 5px;
+}
+
+.list_tag .tag .tag_remove {
+    padding: 0 5px;
+    margin-left: 5px;
+    color: red;
+    border-radius: 24px;
+    background: white;
+}
+
+.isBlock {
+    padding-left: 15px;
+}
