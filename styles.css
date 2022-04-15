@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: none;
+}
+
+.container {
+    margin: 15px;
+    padding: 15px;
+    background: #f0f0f0;
+    width: 300px;
+    border: thick double #c2c2c2;
+    border-radius: 5px;
+}
+
+.list-tags-header {
+    padding: 15px 0;
+}
+
+.list-tags-item {
+    display: flex;
+    background: #59b565;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 5px;
+    justify-content: space-between;
+}
