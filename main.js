@@ -1,5 +1,11 @@
 class Tags {
     constructor(name) {
+        this.tagsArray = [];
+        this.countTags = 1;
+        this.data = name;
+        this.#createTagList();
+    }
+    #createTagList() {
         //div container
         this.container = document.createElement("div");
         this.container.className = "container";
@@ -37,10 +43,6 @@ class Tags {
         this.listTags.append(this.listTagsItem);
 
         document.body.append(this.container);
-        //parameters
-        this.tagsArray = [];
-        this.countTags = 1;
-        this.data = name;
     }
     blockedUI() {
         return this.checkBoxBlocked.checked;
